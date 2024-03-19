@@ -2,6 +2,8 @@
 
 O AppGitHub é um aplicativo desenvolvido em React Native utilizando Expo e Yarn. Ele permite visualizar os seguidores de um usuário do GitHub.
 
+Durante a construção do aplicativo, foram explorados os core components, animações, flatList, hooks como o useContext, navegações, e várias outras funcionalidades.
+
 ## Telas
 
 <p align="center">

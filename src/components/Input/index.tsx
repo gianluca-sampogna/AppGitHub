@@ -18,10 +18,8 @@ const index:React.FC<Props> = ({textFilter, handleChangeText}) => {
 
     if(textFilter.length > 0){
       setCor('#4169E1');
-      //console.log('Mudei para cor azul, length - ', textFilter.length, ' - ', textFilter)
     }else{
       setCor('#000');
-      //console.log('Mudei para cor preta, length - ', textFilter.length, ' - ', textFilter)
     }
 
   };

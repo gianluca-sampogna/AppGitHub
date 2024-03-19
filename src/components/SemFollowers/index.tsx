@@ -1,5 +1,5 @@
 import React from 'react'
-import {View, FlatList, Linking, TouchableOpacity, Text } from 'react-native';
+import {View, Text } from 'react-native';
 import styles from './styles/index';
 import Icon from 'react-native-vector-icons/FontAwesome';
 

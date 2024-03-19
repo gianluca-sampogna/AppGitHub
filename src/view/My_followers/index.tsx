@@ -1,4 +1,4 @@
-import React, {Children, useEffect, useState, useContext} from 'react'
+import React, {useEffect, useState, useContext} from 'react'
 import {View, TouchableWithoutFeedback, Keyboard} from 'react-native';
 import CardUsers from '../../components/CardUsers'
 import {User} from './types/index.t'
@@ -26,8 +26,6 @@ const My_followers = () => {
       setListFollowsFiltrada(filtrarListaFollows(listFollows, textFilter))
     }
   }, [listFollows])
-
-  console.log(listFollowsFiltrada)
 
   useEffect(()=>{
     if(listFollowsCopia.length> 0){

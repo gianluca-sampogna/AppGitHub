@@ -1,5 +1,5 @@
 import React, { useState, useContext, useEffect } from 'react'
-import { View, StyleSheet, Image, Text } from 'react-native'
+import { View, Image, Text } from 'react-native'
 import { User } from '../CardUsers/types/index'
 import styles from '../CardUser/styles'
 import Icon from 'react-native-vector-icons/FontAwesome';
@@ -11,7 +11,6 @@ const Index = (usuario:User) => {
 
   useEffect(() => {
     setIsFavorito(isFavorite(usuario.login))
-    console.log(favoritos)
 
   }, [isFavorite, usuario.login])
 

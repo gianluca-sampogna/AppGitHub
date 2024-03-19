@@ -72,7 +72,7 @@ const Home = ({navigation}) => {
                 <View style={styles.button}>
                 <Button
                     title="Pesquisar"
-                    onPress={async () => { await existThisGithub(nameGitHub) ? console.log('Deu certo') : Alert.alert('Usuário não encontrado', 'Digite uma opção válida')}  }/>
+                    onPress={async () => { await existThisGithub(nameGitHub) ? '' : Alert.alert('Usuário não encontrado', 'Digite uma opção válida')}  }/>
                 </View>
             </View>
          </KeyboardAvoidingView>
